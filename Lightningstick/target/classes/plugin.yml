@@ -1,0 +1,15 @@
+name: Lightningstick
+version: 1.0-SNAPSHOT
+main: me.burzakrual.lightningstick.Main
+api-version: 1.16
+authors: [ BurzaKrual ]
+description: It's a lightning stick!
+commands:
+  lstick:
+    usage: /<command>
+
+
+permissions:
+  lstick.get:
+    description: You need this permission.
+    default: op
